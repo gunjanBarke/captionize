@@ -19,19 +19,13 @@ Features
 💻 Gradio UI: Easy-to-use web interface for uploading, previewing, and captioning images
 
 
-Requirements
-Install dependencies:
-pip install transformers
-pip install gradio
-pip install pillow
-pip install nltk
-pip install rouge-score
-pip install matplotlib
-
 How to Run
-Open the notebook: captionize_combined.ipynb in Jupyter or Colab
-Run all cells in order
-Launch the Gradio UI and start uploading images
-Select enhancement options and dataset
-Get caption, hashtags, and evaluation scores
+Clone this project or open captionize_combined.ipynb in Jupyter or Google Colab.
+Install dependencies using: pip install -r requirements.txt
+Run all cells in the notebook.
+Use the Gradio interface to:
+Upload an image or choose a dataset (Flickr8k/Flickr30k)
+Apply enhancements (contrast, brightness, sharpness, etc.)
+Generate captions and hashtags
+Evaluate captions using BLEU, METEOR, and ROUGE-L
 
